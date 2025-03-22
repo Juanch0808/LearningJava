@@ -8,7 +8,7 @@ public class GeneradorDeContrasenia {
     private Scanner input;
     private String digitosContraseniaFacil = "abcdefghijklmnñopqrstuvwxyz";
     private String digitosContraseniaMedia = "abcdefghijklmnñopqrstuvwxyz123456789";
-    private String digitosContraseniaDificil = "abcdefghijklmnñopqrstuvwxyz123456789*-_.+";
+    private String digitosContraseniaDificil = "abcdefghijklmnñopqrstuvwxyz123456789*-_.+!#$%&=¡";
     private Random digitoRandom;
     private StringBuffer contraseniaFinal;
     private int longitudContrasenia;
